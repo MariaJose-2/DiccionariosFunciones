@@ -57,7 +57,7 @@ print(f' lo comprado fue:{compra("AMD",3,2500000)}')
 
 print("---------------funciones con parametros nominales----------------------")
 
-#define nuevamente la función compra con los mismos parametros, pero esta vez utilizando los nombres de los parametros y esto permite llamar a la función en cualquier orden.
+#define nuevamente la función compra con los mismos parametros, pero esta vez utilizando los nombres de los parametros y esto permite llamar a la función en cualquier orden ya que son nominales.
 def compra(marca,cantidad,valor):
  return dict(
  marca=marca,

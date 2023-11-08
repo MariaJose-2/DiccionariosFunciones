@@ -1,6 +1,7 @@
 print("                                 Ejercicios Funciones                               ")
 #Escriba una función en Python que reproduzca lo siguiente:
 #𝑓(𝑥, 𝑦) = 𝑥2 + 𝑦2 Valor para X=3 y valor para Y=5
+
 #se define la funcion calcular que toma dos argumentos (x, y)
 def calcular(x, y):
     return x**2 + y**2 #realiza el calculo del resultado y devuelve el valor calculado
